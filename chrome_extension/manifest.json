@@ -1,0 +1,17 @@
+{
+    "name": "Extractor",
+    "version": "1.0",
+    "description": "HTML element Annotator",
+    "permissions": ["declarativeContent", "activeTab", "tabs", "http://*/*", "https://*/*"],
+    "browser_action": {
+ 		"default_icon": "icon.png",
+ 		"default_popup": "popup.html"
+ 	},
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*", "file:///*/*"],
+        "css": ["style.css"],
+        "js": ["contentScript.js"],
+        "run_at": "document_idle"
+    }],
+    "manifest_version": 2
+}

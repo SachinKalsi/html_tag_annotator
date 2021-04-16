@@ -1,0 +1,40 @@
+<html>
+<head>
+    <script src="script.js"> </script>
+    <style>
+    .popup{
+        width:300px;
+        height:200px;
+        text-align:center;
+        line-height:200px;
+    }
+
+    .btn_class
+    {
+        background: #594eaf;
+        color: white;
+        padding: 4%;
+        border-radius: 10%;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .floated {
+        display:inline-block;
+        margin-right:5px;
+   }
+    </style>
+</head>
+<body>
+    <hr>
+    <p style="font-size: 24px;text-align:center;">HTML element Annotator </p>
+    <hr>
+    <p style="font-style: oblique;text-align:center;"> Press key "S" (case sensitive) to start/stop annotating. </p>
+    <div class="popup">
+        <button id='view_contents' class="btn_class">View Selected elements</button>
+        <button id='extract' class="btn_class" style="background:green;">Save</button>
+        <div id="message"></div>
+    </div>
+
+</body>
+</html>

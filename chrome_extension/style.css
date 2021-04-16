@@ -1,0 +1,14 @@
+.custom_onhover {
+    background-color: #2196F3;
+    opacity: 0.3;
+}
+
+.custom_selected {
+    background-color: #E91E63;
+    opacity: 0.7;
+}
+
+.predicted {
+    opacity: 0.8;
+    background-color: #00ff37;
+}

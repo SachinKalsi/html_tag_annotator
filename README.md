@@ -5,4 +5,3 @@ Annotate date from a web page.
 
 Coming soon . . . 
 
-![](date_annotation.gif)

@@ -1,12 +1,12 @@
 # HTML Tag Annotator
 
-This helps in annotating HTML tag from a web page using chrome extension & a flask app.
+This helps in annotating HTML tags from a web page using chrome extension & a flask app.
 
 # How it works?
 
 Annotator consists of 2 components.
-1. A chrome extension: This helps in annotation of HTML tags from a given webpage
-2. A Flask app: This helps in storing of annoted html tag with the help of SQLite.
+1. A chrome extension: This helps in the annotation of HTML tags from a given webpage
+2. A Flask app: This helps in storing of annotated HTML tag with the help of SQLite.
 
 # Prerequisites
 `Python 3.6 and above`
@@ -21,4 +21,5 @@ Running Flask app
 Installing Chrome Extension
   1. Goto `chrome://extensions/` in the URL
   2. Click on `Load unpacked` button & choose the `chrome_extension` folder
+![Installing Chrome Extension](install_chrome_extension.gif)
  

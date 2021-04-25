@@ -6,7 +6,7 @@ This helps in annotating HTML tags from a web page using chrome extension & a fl
 
 Annotator consists of 2 components.
 1. A chrome extension: This helps in the annotation of HTML tags from a given webpage
-2. A Flask app: This helps in storing of annotated HTML tag with the help of SQLite.
+2. A Flask app: This helps in storing annotated HTML tag with the help of SQLite.
 
 # Prerequisites
 `Python 3.6 and above`
@@ -14,7 +14,7 @@ Annotator consists of 2 components.
 # How to install?
 
 Running Flask app
-  1. Clone the github repo: `git clone https://github.com/sachinkalsi/html_tag_annotator.git`
+  1. Clone the Github repo: `git clone https://github.com/sachinkalsi/html_tag_annotator.git`
   2. `pip3 install -r flask_app/requirements.txt`
   3. `python3 flask_app/app.py` to start the server.
   4. Flask server should be running on the port `5000`. Check `http://localhost:5000/` to verify.
@@ -29,6 +29,7 @@ Installing Chrome Extension
 2. Create DB file if not created already (`python3 utils/create_db_file.py`)
 3. Go to URL in chrome for which you need annotation
 4. Press capital `S` to start annotation
-5. Once started, mouse hover through the web page & click on the tag which needs annotation. (in the following demo, it is the publication date)
-6. Once selected, Click on `Save` button
+5. Once started, mouse hovers through the web page & click on the tag which needs annotation. (in the following demo, it is the publication date)
+6. Once selected, click on the `Save` button
 7. Press capital `S` to stop annotation.
+8. Look into `how_to_use.ipynb` notebook to know about the reading of the stored annotated data

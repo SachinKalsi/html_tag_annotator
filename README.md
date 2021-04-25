@@ -11,15 +11,24 @@ Annotator consists of 2 components.
 # Prerequisites
 `Python 3.6 and above`
 
-# How to use/install?
+# How to install?
 
 Running Flask app
   1. Clone the github repo: `git clone https://github.com/sachinkalsi/html_tag_annotator.git`
   2. `pip3 install -r flask_app/requirements.txt`
-  3. `python3 flask_app/app.py`
+  3. `python3 flask_app/app.py` to start the server.
+  4. Flask server should be running on the port `5000`. Check `http://localhost:5000/` to verify.
 
 Installing Chrome Extension
   1. Goto `chrome://extensions/` in the URL
   2. Click on `Load unpacked` button & choose the `chrome_extension` folder
 ![Installing Chrome Extension](install_chrome_extension.gif)
- 
+
+# How to use?
+1. Make sure, flask server is running on the `5000` port
+2. Create DB file if not created already (`python3 utils/create_db_file.py`)
+3. Go to URL in chrome for which you need annotation
+4. Press capital `S` to start annotation
+5. Once started, mouse hover through the web page & click on the tag which needs annotation. (in the following demo, it is the publication date)
+6. Once selected, Click on `Save` button
+7. Press capital `S` to stop annotation.

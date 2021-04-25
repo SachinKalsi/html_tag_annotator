@@ -1,6 +1,6 @@
 # HTML Tag Annotator
 
-This helps in annotating HTML tags from a web page using chrome extension & a flask app.
+This helps in annotating HTML tags of a web page using chrome extension & a flask app.
 
 # How it works?
 

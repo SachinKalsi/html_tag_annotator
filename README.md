@@ -33,3 +33,7 @@ Installing Chrome Extension
 6. Once selected, click on the `Save` button
 7. Press capital `S` to stop annotation.
 8. Look into `how_to_use.ipynb` notebook to know about the reading of the stored annotated data
+
+Watch the following video to know more:
+
+[![Annotate HTML text ](https://bit.ly/3xyDLWQ)](https://youtu.be/MtQ1glIuzZ8)

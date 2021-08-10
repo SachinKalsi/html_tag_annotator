@@ -1,3 +1,7 @@
+# What problem it solves?
+
+Create the training dataset very easily by using a smart chrome extension
+
 # HTML Tag Annotator
 
 This helps in annotating HTML tags of a web page using chrome extension & a flask app.

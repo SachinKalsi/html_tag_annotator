@@ -1,21 +1,19 @@
-# What problem it solves?
-
-Create the training dataset very easily by using a smart chrome extension
-
 # HTML Tag Annotator
 
-This helps in annotating HTML tags of a web page using chrome extension & a flask app.
+## What problem it solves?
 
-# How it works?
+Create the training dataset very easily by using a smart chrome extension. This helps in annotating HTML contents of a web page using chrome extension & a flask web application app.
+
+## How it works?
 
 Annotator consists of 2 components.
 1. A chrome extension: This helps in the annotation of HTML tags from a given webpage
 2. A Flask app: This helps in storing annotated HTML tag with the help of SQLite.
 
-# Prerequisites
+## Prerequisites
 `Python 3.6 and above`
 
-# How to install?
+## How to install?
 
 Running Flask app
   1. Clone the Github repo: `git clone https://github.com/sachinkalsi/html_tag_annotator.git`
@@ -28,7 +26,7 @@ Installing Chrome Extension
   2. Click on `Load unpacked` button & choose the `chrome_extension` folder
 ![Installing Chrome Extension](install_chrome_extension.gif)
 
-# How to use?
+## How to use?
 1. Make sure, flask server is running on the `5000` port
 2. Create DB file if not created already (`python3 utils/create_db_file.py`)
 3. Go to URL in chrome for which you need annotation
